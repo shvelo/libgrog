@@ -3,13 +3,14 @@
 <head>
   <title>libgrog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
   <style>
     * {
       box-sizing: border-box;
     }
 
     body, html {
-      font-family: sans-serif;
+      font-family: "Open Sans", sans-serif;
       height: 100%;
       padding: 0;
       margin: 0;
@@ -21,11 +22,21 @@
     }
 
     h1 {
-      color: #484848;
       display: table-cell;
       vertical-align: middle;
       text-align: center;
       font-size: 9vw;
+      font-weight: normal;
+    }
+
+    h1 a, h1 a:visited {
+      color: #484848;
+      text-decoration: none;
+      transition: color 1s;
+    }
+
+    h1 a:hover {
+      color: #00B8D4;
     }
 
     h1 span {
@@ -35,5 +46,5 @@
 </head>
 
 <body>
-  <h1><span>lib</span>grog</h1>
+  <h1><a href="http://pirrate.me"><span>lib</span>grog</a></h1>
 </body>
